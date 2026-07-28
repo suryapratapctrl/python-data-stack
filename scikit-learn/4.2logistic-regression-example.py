@@ -19,7 +19,6 @@ X = df.iloc[:, :-1]
 y = df.iloc[:, -1]
 
 
-#
 from sklearn.model_selection import train_test_split
 
 X_train, X_test, y_train, y_test = train_test_split(
@@ -76,4 +75,4 @@ print(classification_report(y_pred,y_test))
 sns.pairplot(df,hue='species')
 plt.show()
 
-# ruff: noqa: E402
+# ruff: noqa: I001

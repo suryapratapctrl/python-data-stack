@@ -1,5 +1,4 @@
-from sklearn.metrics import accuracy_score,precision_score,recall_score, f1_score
-
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 
 #true answers (what actually happened)
 y_true=[1,0,1,1,0,1,0]

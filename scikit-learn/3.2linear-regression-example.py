@@ -68,5 +68,6 @@ score=r2_score(y_test, reg_pred)
 print(score)
 
 
-# ruff: noqa: E402
+# ruff: noqa: I001
+
 

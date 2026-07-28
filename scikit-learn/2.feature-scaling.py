@@ -3,10 +3,9 @@
 # 2. Normalization (MinMaxScaler) -> it is good when you want all values in the range 0–1, such as for image data or some neural network applications.
 
 
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
 import pandas as pd
 from sklearn.model_selection import train_test_split
-
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 df = pd.read_csv("sample_1.csv")
 

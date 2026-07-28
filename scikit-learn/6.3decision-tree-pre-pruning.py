@@ -75,7 +75,8 @@ plot_tree(
 plt.show()
 
 
-# ruff: noqa: E402
+# ruff: noqa: I001
+
 
 # Gini Index: Measures the impurity of a node in a Decision Tree.
 # A lower Gini value indicates a better and purer split.

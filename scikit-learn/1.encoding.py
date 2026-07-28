@@ -2,8 +2,8 @@
 # 1. Label encoding
 # 2. One hot encoding 
 
-from sklearn.preprocessing import LabelEncoder 
-import pandas as  pd 
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
 
 df=pd.read_csv('sample.csv')
 

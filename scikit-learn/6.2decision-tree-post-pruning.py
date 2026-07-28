@@ -48,9 +48,6 @@ print(score)
 print(classification_report(y_pred, y_test))
 
 
-# ruff: noqa: E402
-
-
 # -------------------- Notes --------------------
 
 # Why do we need pruning?

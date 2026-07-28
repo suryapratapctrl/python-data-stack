@@ -1,4 +1,4 @@
-import pandas as pd 
+import pandas as pd
 
 data={
   'Name':['Pavan','Kapil','Lalit','Ishan','Om'],

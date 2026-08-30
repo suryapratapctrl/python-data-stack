@@ -13,7 +13,7 @@ b=torch.tensor(0.0)
 # step4 
 y_pred=w*x+b
 
-loss=((y_pred-y)**2).mean()
+loss=((y_pred-y)**2).mean() # lower the loss better the model is
 
 print('predicted values',y_pred)
 print('actual values',y_pred)

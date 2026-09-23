@@ -2,3 +2,9 @@
 __pycache__/
 .env
 .ipynb_checkpoints/
+
+# MNIST dataset
+data/
+
+# Trained PyTorch models
+*.pth
